@@ -1,0 +1,27 @@
+# Spatial Tool
+
+The aim of this project is explore the concepts of geoinformatics
+from first principles thorugh buiding a spatial tool in a 
+low level programming language.
+
+A Basis of Geospatial Analyis is geometry. The aim is to perform 
+basic Geometric Analyis and topological Analyis on vector 
+geospatial data.
+
+## Some Objectives include:
+    1. Parse vector geometry from GeoJSON input.
+    2. Store spatial features using custom C data structures.
+    3. Compute geometric properties:
+            - line length
+            - Polygon Perimeter
+            - Polygon area
+            - Minimum bounding rectangle
+
+    4. Compute topological properties, specifically spatial 
+       adjacency based on shared boundaries or vertices.
+    5. Generate a summary report containing:
+        - Basic dataset metadata
+        - Geometric statistics
+        - Topological Connectivity metrics
+    6. Export the report in CSV or JSON format
+    7. Provide a clear CLI usage interface.
