@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include "geometry.h"
 
-int distanceTest();
-
 int main(int argc, char *argv[]) {
     printf("SpatialTool v0.1\nUsage: spatialtool -i <input.geojson>\n");
-    distanceTest();
+
 
     return 0;
 }
