@@ -6,6 +6,12 @@ typedef struct {
     double y;
 } Point;
 
+typedef struct {
+    int length;
+    int capacity;
+    Point *points;
+} Linestring;
+
 double distance(Point a, Point b);
 
 #endif
