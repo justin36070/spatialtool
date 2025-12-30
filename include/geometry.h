@@ -13,5 +13,8 @@ typedef struct {
 } Linestring;
 
 double distance(Point a, Point b);
+Linestring init_linestring(int size, Point *line);
+void append_point(Point point);
+void free_linestring(Linestring *line);
 
 #endif
